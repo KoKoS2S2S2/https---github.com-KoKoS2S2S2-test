@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Quiz</h1>
+    <div class="question-container">
+      <p class="question">1. How many planets are in the solar system?</p>
+      <div class="options">
+        <label class="option">
+          <input type="radio" name="answer" value="8">
+          <span>8</span>
+        </label>
+        <label class="option">
+          <input type="radio" name="answer" value="9">
+          <span>9</span>
+        </label>
+        <label class="option">
+          <input type="radio" name="answer" value="10">
+          <span>10</span>
+        </label>
+        <label class=""></label>
+      </div>
+      <button class="next-btn" disabled>Next</button>
+      <p class="counter">1/7</p>
+    </div>
+    <button class="restart-btn hidden">Restart</button>
+  </div>
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>
